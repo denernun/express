@@ -1,21 +1,21 @@
 'use strict';
 
-const fs = require('fs');
-const http = require('http');
+const https = require('https');
 const app = require('../app/app');
 const socket = require('../socket/socket');
+const certs = require('./server-certs');
 
-const port = normalizePort(process.env.PORT || 3005);
-
+const port = normalizePort(process.env.PORT || 3000);
 app.set('port', port);
 
-// const options = {
-//   key: fs.readFileSync("privkey.pem"),
-//   cert: fs.readFileSync("fullchain.pem")
-// };
-//const server = http.createServer(options,app).listen(port);
+const options = {
+  cert: certs.certificate,
+  key: certs.privateKey,
+  requestCert: false,
+  rejectUnauthorized: false,
+};
 
-const server = http.createServer(app).listen(port);
+const server = https.createServer(options, app).listen(port);
 
 server.on('error', onError);
 server.on('listening', onListening);
@@ -41,9 +41,7 @@ function onError(error) {
     throw error;
   }
 
-  const bind = typeof port === 'string'
-    ? `pipe ${port}`
-    : `port ${port}`;
+  const bind = typeof port === 'string' ? `pipe ${port}` : `port ${port}`;
 
   switch (error.code) {
     case 'EACCES':
@@ -59,9 +57,6 @@ function onError(error) {
 
 function onListening() {
   const addr = server.address();
-  const bind = typeof addr === 'string'
-    ? `pipe ${addr}`
-    : `port ${addr.port}`;
-
+  const bind = typeof addr === 'string' ? `pipe ${addr}` : `port ${addr.port}`;
   console.log('Server listening on', bind);
 }

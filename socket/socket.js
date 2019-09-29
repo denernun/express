@@ -8,5 +8,4 @@ exports.initialize = (server) => {
     });
     require('./socket-routes').routes(socket);
   });
-
 };
