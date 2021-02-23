@@ -4,6 +4,7 @@
     "target": "es2019",
     "module": "commonjs",
     "moduleResolution": "node",
+    "lib": ["es2019"],
     "outDir": "./build",
     "rootDir": "./src",
     "baseUrl": "./",
@@ -22,13 +23,12 @@
     "noUnusedLocals": false,
     "noImplicitAny": false,
     "noLib": false,
-    "lib": [],
     "typeRoots": ["node_modules/@types"],
     "paths": {
       "@src/*": ["./src/*"],
       "@test/*": ["./test/*"]
     },
-    "rootDirs": ["./src", "./test"]
+    "rootDirs": ["./src", "./tests"]
   },
   "include": ["./src/**/*.ts", "./test/**/*.ts"],
   "exclude": ["./node_modules/*", "./build/*", "./coverage/*"]
