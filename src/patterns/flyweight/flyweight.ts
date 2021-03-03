@@ -1,45 +1,42 @@
 namespace FlyweightPattern {
+  export interface Flyweight {
+    operation(s: string): void;
+  }
 
-    export interface Flyweight {
-        operation(s: String): void;
+  export class ConcreteFlyweight implements Flyweight {
+    private instrinsicState: string;
+
+    constructor(instrinsicState: string) {
+      this.instrinsicState = instrinsicState;
     }
 
-    export class ConcreteFlyweight implements Flyweight {
-        private instrinsicState: String;
+    public operation(s: string): void {
+      console.log('`operation` of ConcreteFlyweight', s, ' is being called!');
+    }
+  }
 
-        constructor(instrinsicState: String) {
-            this.instrinsicState = instrinsicState;
-        }
+  export class UnsharedConcreteFlyweight implements Flyweight {
+    private allState: number;
 
-        public operation(s: String): void {
-            console.log("`operation` of ConcreteFlyweight", s, " is being called!");
-        }
+    constructor(allState: number) {
+      this.allState = allState;
     }
 
-    export class UnsharedConcreteFlyweight implements Flyweight {
-        private allState: number;
-
-        constructor(allState: number) {
-            this.allState = allState;
-        }
-
-        public operation(s: String): void {
-            console.log("`operation` of UnsharedConcreteFlyweight", s, " is being called!");
-        }
+    public operation(s: string): void {
+      console.log('`operation` of UnsharedConcreteFlyweight', s, ' is being called!');
     }
+  }
 
-    export class FlyweightFactory {
+  export class FlyweightFactory {
+    private fliesMap: { [s: string]: Flyweight } = <any>{};
 
-        private fliesMap: { [s: string]: Flyweight; } = <any>{};
+    constructor() {}
 
-        constructor() { }
-
-        public getFlyweight(key: string): Flyweight {
-
-            if (this.fliesMap[key] === undefined || null) {
-                this.fliesMap[key] = new ConcreteFlyweight(key);
-            }
-            return this.fliesMap[key];
-        }
+    public getFlyweight(key: string): Flyweight {
+      if (this.fliesMap[key] === undefined || null) {
+        this.fliesMap[key] = new ConcreteFlyweight(key);
+      }
+      return this.fliesMap[key];
     }
+  }
 }
