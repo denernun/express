@@ -25,8 +25,7 @@
     "incremental": true,
     "typeRoots": ["node_modules/@types"],
     "paths": {
-      "@src/*": ["./src/*"],
-      "@modules/*": ["./src/app/modules/*"]
+      "@src/*": ["./src/*"]
     },
     "rootDirs": ["./src"]
   },

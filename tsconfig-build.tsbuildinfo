@@ -2,8 +2,8 @@
   "program": {
     "fileInfos": {
       "./node_modules/typescript/lib/lib.es5.d.ts": {
-        "version": "9622e8bd7cc72a7dab819a8011ecbf81d443638082e5cb99ecf2e75ff56ffc9d",
-        "signature": "9622e8bd7cc72a7dab819a8011ecbf81d443638082e5cb99ecf2e75ff56ffc9d",
+        "version": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "signature": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
         "affectsGlobalScope": true
       },
       "./node_modules/typescript/lib/lib.es2015.d.ts": {
@@ -32,8 +32,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/typescript/lib/lib.dom.d.ts": {
-        "version": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
-        "signature": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "version": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
+        "signature": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
         "affectsGlobalScope": true
       },
       "./node_modules/typescript/lib/lib.es2015.core.d.ts": {
@@ -62,13 +62,13 @@
         "affectsGlobalScope": true
       },
       "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
-        "version": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
-        "signature": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
+        "version": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "signature": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
         "affectsGlobalScope": true
       },
       "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
-        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
-        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "version": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "signature": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
         "affectsGlobalScope": true
       },
       "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
@@ -162,8 +162,8 @@
         "affectsGlobalScope": true
       },
       "./node_modules/typescript/lib/lib.esnext.intl.d.ts": {
-        "version": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
-        "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "version": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "signature": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
         "affectsGlobalScope": true
       },
       "./node_modules/@types/node/globals.d.ts": {
@@ -442,32 +442,22 @@
         "affectsGlobalScope": false
       },
       "./src/app/modules/produtos/router.ts": {
-        "version": "7b9906a25b07ac748aac0f07355c0db1885f14aa7c4100b93dd2f15ab399fc4c",
+        "version": "af2741a28a61e7a94606680171a15d4b10c033da831bb860a9179e8f1cae5754",
         "signature": "0fcf26a2e574364442e68ede183f7488695f962eec2aa4073c62e1ee93cf2478",
         "affectsGlobalScope": false
       },
       "./src/routes.ts": {
-        "version": "a6a0e530dc86a810ca3c03e0df5f19940855d922343953453bc45652a6c58ea1",
+        "version": "41f9efa764745af45b1d26e191312bc2c4a59ce8f1fec447676049ff9f567889",
         "signature": "8b16eb1d18b744acb88b1148c6e845a67d86c75685a7e4575f2b3346e05bdb15",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/module-alias/index.d.ts": {
-        "version": "ac5a22d3d6ce153bb5a216fffc0f691b9f699508b36f9725b44e12408ed88045",
-        "signature": "ac5a22d3d6ce153bb5a216fffc0f691b9f699508b36f9725b44e12408ed88045",
-        "affectsGlobalScope": false
-      },
-      "./src/util/module-alias.ts": {
-        "version": "5ce331228fd11f79cf7669823c3f2b3fd15b05bb52a1be54567dc0adaab816ce",
-        "signature": "806a54089e225316793a42111586e4c51bcb8ac3915781d7dec8be6c34a68c75",
-        "affectsGlobalScope": false
-      },
       "./src/app.ts": {
-        "version": "4e4c23ea1498eed848ed17d8081fdc2722ec059fee2af46bca263656d5a2cfed",
-        "signature": "9373ce49535e07595c96f6552cae8046c328e74d4c2f7711b09d070bde4d8808",
+        "version": "3aa4c657c86051356f11bde3035cb24d2fed6a58b668d50cc597a36b8aa378c2",
+        "signature": "cca20e9d7a2db1afca28a49f59357df512898384b791e2c40b1cf6dc4879c862",
         "affectsGlobalScope": false
       },
       "./src/server.ts": {
-        "version": "a3ef8de520a72e8799b565609c66b7a8f4ffdc93c1e89444ce3a64aa9efd35d6",
+        "version": "ce9da7206398613be3257386cf2a612b6e0ac27316806450758838244d64698f",
         "signature": "dc564680890156170d57f244fb19cdef17124fc82d756ffa36a826a3ae20d1ef",
         "affectsGlobalScope": false
       },
@@ -546,11 +536,6 @@
         "signature": "274bda283ef15f4205603ca9967313fc013aa77ae89f2cbeab5fbd51439e96ed",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/eslint-visitor-keys/index.d.ts": {
-        "version": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
-        "signature": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@types/faker/index.d.ts": {
         "version": "ca7294ac2e695949d037f2a0dc72198bddf1a916c9256cf4d84c678ba9ba7136",
         "signature": "ca7294ac2e695949d037f2a0dc72198bddf1a916c9256cf4d84c678ba9ba7136",
@@ -619,6 +604,11 @@
       "./node_modules/@types/json5/index.d.ts": {
         "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/module-alias/index.d.ts": {
+        "version": "ac5a22d3d6ce153bb5a216fffc0f691b9f699508b36f9725b44e12408ed88045",
+        "signature": "ac5a22d3d6ce153bb5a216fffc0f691b9f699508b36f9725b44e12408ed88045",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/normalize-package-data/index.d.ts": {
@@ -697,25 +687,19 @@
       "noUnusedLocals": false,
       "noImplicitAny": false,
       "noLib": false,
+      "incremental": true,
       "typeRoots": [
         "./node_modules/@types"
       ],
       "paths": {
         "@src/*": [
           "./src/*"
-        ],
-        "@modules/*": [
-          "./src/app/modules/*"
-        ],
-        "@test/*": [
-          "./tests/*"
         ]
       },
       "rootDirs": [
-        "./src",
-        "./tests"
+        "./src"
       ],
-      "pathsBasePath": "D:/PROJETOS/EXPRESS-TS",
+      "pathsBasePath": "D:/PROJETOS/EXPRESS",
       "project": "./tsconfig-build.json",
       "configFilePath": "./tsconfig-build.json"
     },
@@ -1059,8 +1043,7 @@
       "./src/app.ts": [
         "./node_modules/@types/express/index.d.ts",
         "./node_modules/@types/node/http.d.ts",
-        "./src/routes.ts",
-        "./src/util/module-alias.ts"
+        "./src/routes.ts"
       ],
       "./src/app/modules/produtos/router.ts": [
         "./node_modules/@types/express/index.d.ts"
@@ -1071,10 +1054,6 @@
       ],
       "./src/server.ts": [
         "./src/app.ts"
-      ],
-      "./src/util/module-alias.ts": [
-        "./node_modules/@types/module-alias/index.d.ts",
-        "./node_modules/@types/node/path.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -1415,8 +1394,7 @@
         "./node_modules/pretty-format/build/types.d.ts"
       ],
       "./src/app.ts": [
-        "./node_modules/@types/express-serve-static-core/index.d.ts",
-        "./src/util/module-alias.ts"
+        "./node_modules/@types/express-serve-static-core/index.d.ts"
       ],
       "./src/app/modules/produtos/router.ts": [
         "./node_modules/@types/express-serve-static-core/index.d.ts"
@@ -1439,7 +1417,6 @@
       "./node_modules/@types/cors/index.d.ts",
       "./node_modules/@types/eslint-plugin-prettier/index.d.ts",
       "./node_modules/@types/eslint-scope/index.d.ts",
-      "./node_modules/@types/eslint-visitor-keys/index.d.ts",
       "./node_modules/@types/eslint/helpers.d.ts",
       "./node_modules/@types/eslint/index.d.ts",
       "./node_modules/@types/estree/index.d.ts",
@@ -1558,9 +1535,8 @@
       "./src/app.ts",
       "./src/app/modules/produtos/router.ts",
       "./src/routes.ts",
-      "./src/server.ts",
-      "./src/util/module-alias.ts"
+      "./src/server.ts"
     ]
   },
-  "version": "4.1.5"
+  "version": "4.2.2"
 }

@@ -1,7 +1,6 @@
 import express from 'express';
 import { Server } from 'http';
 import router from './routes';
-// import './util/module-alias';
 
 export class SetupApplication {
   private server?: Server;
